@@ -1,0 +1,35 @@
+{% extends 'emp/menu.html' %}
+{% load static %}
+{% block content %}
+<!-- alert message start -->
+{% include 'emp/messages.html' %}
+<!-- end alert message -->
+
+<div align="center" class="container">
+    <h2 class="em">Employee Form</h2>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.first_name }}
+        </div>
+        <div class="form-group">
+            {{ form.last_name }}
+        </div>
+        <div class="form-group">
+            {{ form.salary }}
+        </div>
+        <div class="form-group">
+            {{ form.age }}
+        </div>
+        <div class="form-group">
+            {{ form.email }}
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn-submit" name="submit"><span style="padding: 10px;">Save
+                    Employee</span></button>
+            <!-- <input class="btn-submit" type="submit" name="submit" value="Save Employee" /> -->
+        </div>
+    </form>
+</div>
+{% include 'emp/footer.html' %}
+{% endblock content %}

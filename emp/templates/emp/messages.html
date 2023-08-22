@@ -1,0 +1,16 @@
+<!-- {% for message in messages %} -->
+<div class="alert {{ message.tags }} alert-dismissible" id="flashmsg" role="alert"
+    style="padding-bottom: 0px; margin-top: 6px; margin-left: 10px; margin-right: 10px;">
+    <script>
+        setTimeout(function () {
+            var msg = document.getElementById("flashmsg");
+            msg.parentNode.removeChild(msg);
+        }, 3000)
+    </script>
+    <center>
+        <strong>
+            <p>{{ message }}</p>
+        </strong>
+    </center>
+</div>
+<!-- {% endfor %} -->

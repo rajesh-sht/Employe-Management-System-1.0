@@ -1,0 +1,131 @@
+* {
+    margin:0px;
+    padding: 0;
+}
+.heading {
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 3, 194);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.anchor {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(2, 34, 34);
+}
+.anchor:hover{
+    color: red;
+}
+
+.list{
+    text-align: center;
+    padding: 5px;
+    color: rgb(247, 7, 215);
+
+}
+
+.tbl1 {
+    
+    width: 100%;
+}
+.tbl1 td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* list */
+
+.tbl2{
+    border: 2px solid black;
+    width: 96%;
+    border-collapse: collapse;
+    border-style: groove;
+    margin-top: 2px;
+    margin-left: 25px;
+    box-shadow: 0px 0px 10px rgb(161, 26, 26);
+}
+.tbl2 th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tbl2 a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+/* emp */
+.form-group{
+    margin-top: 15px;
+}
+.container{
+    /* border: 1px solid black; */
+    border-style: inset;
+    border-width: 15px;
+    margin-top: 30px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 0px 15px rgb(139, 60, 60);
+}
+.em{
+    margin: 5px;
+    text-shadow: 0 0 8px rgb(245, 155, 155);
+    font-weight: bold;
+    font-family: fantasy;
+}
+.btn-submit:hover{
+    box-shadow: 5px 5px 10px green;
+    background-color: rgb(17, 97, 17);
+    color: rgb(255, 255, 255);
+}
+.btn-submit{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 131, 0);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+/* contact */
+.conct{
+    margin: auto;
+    width: 30%;
+    border-style: groove;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgb(73, 36, 110);
+    margin-top: 18px;
+}
+
+/* update */
+.form-group{
+    margin-top: 15px;
+}
+/* .container{
+    border-style: groove;
+    margin-top: 30px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 0px 15px rgb(139, 60, 60);
+} */
+.em{
+    margin: 5px;
+    text-shadow: 0 0 8px rgb(245, 155, 155);
+    font-weight: bold;
+    font-family: fantasy;
+}
+.btn-update:hover{
+    box-shadow: 5px 5px 10px green;
+    background-color: rgb(17, 97, 17);
+    color: rgb(255, 255, 255);
+}
+.btn-update{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 131, 0);
+    /* margin-left: 50%; */
+}
